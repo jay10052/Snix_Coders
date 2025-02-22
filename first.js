@@ -14,7 +14,10 @@ menuIcon.addEventListener("click", function () {
     }
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5819dad4d4a49025a462683ef7c73dfafb131394
 //header
 let header = document.querySelector('header');
 window.addEventListener('scroll' , () => {
@@ -22,7 +25,10 @@ window.addEventListener('scroll' , () => {
 });
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5819dad4d4a49025a462683ef7c73dfafb131394
 function showCar(imageSrc) {
     document.getElementById("modalImage").src = imageSrc;
     document.getElementById("carModal").style.display = "flex";
@@ -40,7 +46,11 @@ function openModal(imageSrc) {
 }
 
 function closeModal() {
+<<<<<<< HEAD
     document.getElementById("myModal").style.display = "none";
+=======
+    document.getElementById("myModal").style.display = "none";
+>>>>>>> 5819dad4d4a49025a462683ef7c73dfafb131394
 }
 
 document.getElementById('globalSearchForm').addEventListener('submit', function(e) {
@@ -63,6 +73,7 @@ document.getElementById('globalSearchForm').addEventListener('submit', function(
     const matchedItem = globalMap[searchTerm];
     
     if (matchedItem) {
+<<<<<<< HEAD
       window.location.href = `${matchedItem.url}#${matchedItem.anchor}`;
     } else {
       alert('Item not found! Examples: "Porsche 911 Carrera 4", "Auto Spare Parts"');
@@ -136,4 +147,10 @@ document.getElementById('globalSearchForm').addEventListener('submit', function(
     } else {
       alert('Item not found! Examples: "Porsche 911 Carrera 4", "Auto Spare Parts"');
     }
+=======
+      window.location.href = ${matchedItem.url}#${matchedItem.anchor};
+    } else {
+      alert('Item not found! Examples: "Porsche 911 Carrera 4", "Auto Spare Parts"');
+    }
+>>>>>>> 5819dad4d4a49025a462683ef7c73dfafb131394
   });
