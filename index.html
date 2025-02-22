@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Responsive Car Sale Website</title>
 </head>
 <body>
@@ -41,8 +42,55 @@
             <p>Making it even easier to find your dream and pre owned Cars.</p>
         </div>
         <div class="cars-container container">
-            <div class="box">
-                
+            div class="cars-container container">
+            <div class="box car-section" id="porsche-911" onclick="openModal('images (1).jpeg')">
+                <img src="images (1).jpeg" alt="">
+                <h2>Porche 911 Carrera 4 GTS</h2>
+            </div>
+            <div class="box car-section" id="tesla-model1" onclick="openModal('images (2).jpeg')">
+                <img src="images (2).jpeg" alt="">
+                <h2>Tesla Model-Y</h2>
+            </div>
+            <div class="box car-section" id="buggati-chiron" onclick="openModal('images.jpeg')">
+                <img src="images.jpeg"  alt="">
+                <h2>Buggati Chiron</h2>
+            </div>
+            <div class="box car-section" id="ferrari-sp90" onclick="openModal('download (1).jpeg')">
+                <img src="download (1).jpeg" alt="">
+                <h2>Ferrari SF90</h2>
+            </div>
+            <div class="box car-section" id="Koenegsegg-cc850" onclick="openModal('download (2).jpeg')">
+                <img src="download (2).jpeg" alt="">
+                <h2>Koenegsegg CC850</h2>
+            </div>
+            <div class="box car-section" id="mclaren-7508" onclick="openModal('download.jpeg')">
+                <img src="download.jpeg" alt="">
+                <h2>McLAREN 750S</h2>
+            </div>
+            <div class="box car-section" id="bmw-ix-m60" onclick="openModal('download (3).jpeg')">
+                <img src="download (3).jpeg" alt="">
+                <h2>BMW iX M60</h2>
+            </div>
+            <div class="box car-section" id="rolls-royce-phantom" onclick="openModal('images (3).jpeg')">
+                <img src="images (3).jpeg" alt="">
+                <h2>Rolls Royce Phantom</h2>
+            </div>
+            <div class="box car-section" id="mercedes-benz" onclick="openModal('images (4).jpeg')">
+                <img src="images (4).jpeg" alt="">
+                <h2>Mercedes-Benz</h2>
+            </div>
+        </div>
+    </section>
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+
+    <section class="about container" id="about">
+        <div class="about-img">
+            <img id="carImage" src="jay.png" alt="">
+        </div>
+
             </div>
         </div>
     </section>
